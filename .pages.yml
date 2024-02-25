@@ -1,9 +1,12 @@
+media:
+  input: files/media
+  output: /files/media
 content:
   - name: posts
     label: Posts
     path: src/_posts
     type: collection
-    fields:  
+    fields:
       - name: published
         label: Published
         type: boolean
@@ -17,3 +20,4 @@ content:
       - name: body
         label: Body
         type: rich-text
+
